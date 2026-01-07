@@ -1,0 +1,19 @@
+{
+  "urls": [
+  ],
+  "deps": [
+    [ "base64", "latest" ],
+    [ "copy", "latest" ],
+    [ "collections", "latest" ],
+    [ "datetime", "latest" ],
+    [ "hashlib", "latest" ],
+    [ "io", "latest" ],
+    [ "logging", "latest" ],
+    [ "os", "latest" ],
+    [ "pathlib", "latest" ],
+    [ "struct", "latest" ],
+    [ "umqtt.simple", "latest" ],
+    [ "umqtt.robust", "latest" ]
+  ],
+  "version": "1.10"
+}

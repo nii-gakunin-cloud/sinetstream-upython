@@ -1,0 +1,3 @@
+[submodule "lib/uavro"]
+	path = lib/uavro
+	url=../sinetstream-uavro

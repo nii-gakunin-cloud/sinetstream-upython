@@ -1,0 +1,12 @@
+FROM alpine
+
+RUN apk update
+RUN apk add --no-cache git python3 make build-base
+WORKDIR /
+RUN git clone https://github.com/micropython/micropython.git
+WORKDIR /micropython
+RUN git switch --detach v1.26.0
+WORKDIR /micropython/mpy-cross
+RUN make
+WORKDIR /
+RUN cp /micropython/mpy-cross/build/mpy-cross /mpy-cross

@@ -1,0 +1,15 @@
+{
+  "header": {
+    "version": 3
+  },
+  "config": {
+    "raspipicow": {
+      "type": "mqtt",
+      "xxx brokers": "mqtt_broker:1883",
+      "brokers": "mqtt_broker",
+      "xxx brokers": "localhost:1883",
+      "topic": "test",
+      "value_type": "text"
+    }
+  }
+}
