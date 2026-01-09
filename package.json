@@ -1,7 +1,24 @@
 {
   "urls": [
+    [ "sinetstream/__init__.mpy",       "img/lib/sinetstream/__init__.mpy" ],
+    [ "sinetstream/__main__.mpy",       "img/lib/sinetstream/__main__.mpy" ],
+    [ "sinetstream/api.mpy",            "img/lib/sinetstream/api.mpy" ],
+    [ "sinetstream/codec.mpy",          "img/lib/sinetstream/codec.mpy" ],
+    [ "sinetstream/compression.mpy",    "img/lib/sinetstream/compression.mpy" ],
+    [ "sinetstream/config_client.mpy",  "img/lib/sinetstream/config_client.mpy" ],
+    [ "sinetstream/configs.mpy",        "img/lib/sinetstream/configs.mpy" ],
+    [ "sinetstream/crypto.mpy",         "img/lib/sinetstream/crypto.mpy" ],
+    [ "sinetstream/error.mpy",          "img/lib/sinetstream/error.mpy" ],
+    [ "sinetstream/marshal.mpy",        "img/lib/sinetstream/marshal.mpy" ],
+    [ "sinetstream/packet.mpy",         "img/lib/sinetstream/packet.mpy" ],
+    [ "sinetstream/spi.mpy",            "img/lib/sinetstream/spi.mpy" ],
+    [ "sinetstream/utils.mpy",          "img/lib/sinetstream/utils.mpy" ],
+    [ "sinetstream/value_type.mpy",     "img/lib/sinetstream/value_type.mpy" ],
+    [ "sinetstreamplugin/iostream.mpy", "img/lib/sinetstreamplugin/iostream.mpy" ],
+    [ "sinetstreamplugin/mqtt.mpy",     "img/lib/sinetstreamplugin/mqtt.mpy" ]
   ],
   "deps": [
+    [ "github:nii-gakunin-cloud/sinetstream-uavro", "main" ],
     [ "base64", "latest" ],
     [ "copy", "latest" ],
     [ "collections", "latest" ],
