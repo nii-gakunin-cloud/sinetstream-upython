@@ -98,7 +98,9 @@ sinetstream-upythonとuavroのソースコードを取得する。
 
 取得方法:
 * githubからzipファイルをダウンロードして展開、または
-* `git clone --recursive https://github.com/nii-gakunin-cloud/sinetstream-upython.git` XXX
+    * https://github.com/nii-gakunin-cloud/sinetstream-upython
+    * https://github.com/nii-gakunin-cloud/sinetstream-uavro
+* `git clone --recursive https://github.com/nii-gakunin-cloud/sinetstream-upython.git`
 
 ### ツールの導入
 
